@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background: #00bfff;
+  
+}
+
+.header{
+    
+    color: white;
+   
+    
+}
+.header h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.form input{
+    width: 300px;
+    height: 40px;
+    border: 1px;
+    justify-content: center;
+    font-size: 18px;
+}
+.form{
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 40px;
+    font-size: 24px;
+    background-color: transparent;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+}
+.dont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px ;
+}
+.signin p{
+    text-align: center;
+    margin-top: 20px;
+}
+.signin h4{
+    text-align: center;
+    margin-top: 18px;
+}
+.svg{
+    padding-top: 18px;
+    text-align: center;
+    gap: 20px;
+}
+.dont{
+    margin-top: 50px;
+}
